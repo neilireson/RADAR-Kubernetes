@@ -5,9 +5,9 @@ base_timeout: 90
 # Context that you use in kubectl to access the Kubernetes cluster. Will be translated to `helm --kube-context <context_name>`
 kubeContext: default
 # Domain name that RADAR-Base installation will be accessible from
-server_name: example.com
+server_name: www.usfd-radarbase.org
 # This email address will be used to notify for SSL certificate expiration
-maintainer_email: MAINTAINER_EMAIL@example.com
+maintainer_email: n.ireson@sheffield.ac.uk
 # Number of Kafka pods that will be installed
 kafka_num_brokers: 3
 # Minimum number of Kafka brokers that should be in sync
