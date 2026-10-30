@@ -125,7 +125,7 @@ nginx_ingress:
 # --------------------------------------------------------- 10-base.yaml ---------------------------------------------------------
 # Use letsencrypt to retrieve SSL certificates.
 cert_manager_letsencrypt:
-  _install: true
+  _install: false
   _chart_version: 0.2.1
   _extra_timeout: 0
 
