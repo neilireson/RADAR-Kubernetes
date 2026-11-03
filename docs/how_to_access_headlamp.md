@@ -5,7 +5,7 @@ Dashboard and gives a read/browse view of cluster resources (Deployments, Pods, 
 etc.) without needing to run individual `kubectl` commands.
 
 Headlamp is deployed via the `radar/headlamp` Helm chart (release `headlamp`, namespace `headlamp`) from
-`helmfile.d/30-custom.yaml`. It is only exposed inside the cluster (ClusterIP Service) — there is no public Ingress —
+`helmfile.d/10-services-extra.yaml`. It is only exposed inside the cluster (ClusterIP Service) — there is no public Ingress —
 so access is via `kubectl port-forward` plus a ServiceAccount token.
 
 ## Prerequisites
