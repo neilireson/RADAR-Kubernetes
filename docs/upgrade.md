@@ -550,7 +550,7 @@ helmfile sync
         enabled: true
         host: smtp
         port: 25
-        from: noreply@example.com
+        from: noreply@usfd-radarbase.org
         starttls: false
         auth: true
 ```
@@ -561,7 +561,7 @@ helmfile sync
         enabled: true
         host: smtp
         port: 25
-        from: noreply@example.com
+        from: noreply@usfd-radarbase.org
         starttls: false
         auth: true
 ```
